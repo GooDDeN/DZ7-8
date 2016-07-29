@@ -1,0 +1,432 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../fonts/leaguegothic-regular-webfont.eot');
+    src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-family: 'Arial', sans-serif;
+	margin: 0;
+	padding: 0; 
+}
+
+header{
+	height: 850px;
+	background-image: url(../img/bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: #e3e3e3;
+}
+
+.conteiner{
+	position: relative;
+	max-width: 960px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.logo{
+	display: inline-block;
+	max-width: 152px;
+	width: 100%;
+	padding-top: 70px;
+}
+
+nav{
+	float: right;
+	margin-top: 90px;
+}
+
+.nav{
+	margin: 0;
+	padding: 0;
+}
+
+.nav__element{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 45px;
+}
+
+.nav__link{
+	height: 18px;
+	text-decoration: none;
+	text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
+	color: white;
+	font-family: "League Gothic";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 34px;
+	text-transform: uppercase;	
+}
+
+.nav__link:hover{
+	border-bottom: 2px solid #edbfff;
+}
+
+.slider{
+	position: relative;
+	height: 400px;
+	background: rgba(0, 0, 0, .2);
+	margin-top: 170px;
+}
+
+.text{
+	width: 60%;
+}
+
+.slider h2{
+	color: #fefefe;
+	font-family: "League Gothic";
+	font-size: 60px;
+	font-weight: 400;
+	line-height: 36px;
+	padding-top: 85px;
+	padding-bottom: 10px;
+}
+
+.slider h3{
+	color: #edbfff;
+	font-family: "League Gothic";
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 36px;
+	text-transform: uppercase;
+}
+
+.slider h6{
+	width: 500px;
+	color: #e8e7e9;
+	font-family: "Open Sans";
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 30px;
+}
+
+.iphone{
+	position: absolute;
+	top: -20px;
+	right: 35px;
+}
+
+.play{
+	position: absolute;
+	top: 115px;
+	right: 100px;
+}
+
+.about{
+	height: 345px;
+	background-image: url(../img/gradient_purp.png);
+	background-color: #e3e3e3;
+}
+
+.sprite{
+	position: absolute;
+	background: url(../img/sprite1.png) no-repeat 0 0;
+	width: 30px;
+	height: 31px;
+}
+
+.sprite2{
+	position: absolute;
+	background: url(../img/sprite1.png) no-repeat 0 -41px;
+	width: 33px;
+	height: 29px;
+}
+
+.sprite3{
+	position: absolute;
+	background: url(../img/sprite1.png) no-repeat 0 -80px;
+	width: 29px;
+	height: 31px;
+}
+
+.about h2{
+	height: 22px;
+	text-shadow: 0.5px 0.9px 0 #0f1518;
+	color: white;
+	font-family: "League Gothic";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+	padding-left: 40px;
+}
+
+.about p{
+	text-shadow: 0.5px 0.9px 0 #0f1518;
+	color: #e8e7e9;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-right: 10px;
+	padding-left: 40px;
+}
+
+.about a{
+	width: 54px;
+	height: 14px;
+	color: white;
+	font-family: "League Gothic";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-left: 190px;
+	text-transform: uppercase;
+}
+
+.about a:hover{
+	text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+.main{
+	
+}
+.section{
+	font-size: 0;
+	
+	height: 515px;
+}
+
+.section h4{
+	display: inline-block;
+	text-shadow: 0.5px 0.9px 0 white;
+	font-family: "League Gothic";
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #454545;
+	padding-top: 30px;
+	padding-left: 60px;
+	padding-bottom: 10px;
+}
+
+.section span{
+	color: #edbfff;
+}
+
+.section p{
+	text-shadow: 0.5px 0.9px 0 white;
+	color: #454545;
+	font-family: "Open Sans";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	padding-left: 60px;
+	padding-right: 15px;
+}
+
+.foto1{
+	position: absolute;
+	top: 120px;
+	left: 20px;
+}
+.article{
+	background-color: white;
+	font-size: 16px;
+	display: inline-block;
+	vertical-align: top;
+	width: 50%;
+	margin-top: 100px;
+}
+
+.article h5{
+	text-shadow: 0.5px 0.9px 0 white;
+	color: #454545;
+	font-family: "Open Sans";
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 700;
+	padding-left: 60px;
+}
+
+.article a{
+	display: inline-block;
+	height: 14px;
+	text-shadow: 0.5px 0.9px 0 white;
+	color: #454545;
+	font-family: "League Gothic";
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	float: right;
+	text-transform: uppercase;
+	margin-top: 40px;
+	margin-right: 10px;
+}
+
+.col2{
+	display: inline-block;
+	position: relative;
+}
+
+.img{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+footer{
+	height: 115px;
+	background-image: url(../img/bg_footter.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color: #e3e3e3;
+}
+
+.footer_bottom nav{
+	float: left;
+	margin-top: 50px;
+
+}
+
+.footer_bottom .nav__element{
+	margin-left: 0px;
+	margin-right: 45px;
+}
+
+.row{
+	font-size: 0;
+}
+
+.col{
+	font-size: 16px;
+	display: inline-block;
+	vertical-align: top;
+	width: 33.333333333333336%;
+	margin-top: 75px;
+}
+
+.designe{
+	position: absolute;
+	top: 55px;
+	right: 0px;
+}
+
+@media(max-width: 767px){
+	.conteiner{
+		margin: 0px 0px 0px 15px;
+		padding: 0;
+	}
+	.col{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.logo{
+		display: block;
+		margin: 0 auto;
+		
+		margin-bottom: 40px;
+	}
+	nav{
+		float: none;
+		margin-top: 0px;
+	}
+	.nav{
+		width: 245px;
+		margin: 0 auto;
+		position: absolute;
+		right: 40px;
+		z-index: 9;
+		height: 35px;
+		overflow: hidden;
+	}
+	.nav:hover{
+		height: auto;
+		position: absolute;
+		right: 40px;
+		background-color: #36293e;
+		border: 1px solid #051116;
+		border-radius: 10px;
+		box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+		opacity: 0.9;
+	}
+	.nav li{
+		display: block;
+		margin: 0px;
+		text-align: center;
+	}
+	.nav li:hover{
+		background-color: #2b2231;
+	}
+	.nav__element{
+		margin: 0px;
+	}
+	header{
+		height: 515px;
+	}
+	.text{
+		margin: 0;
+
+		margin-left: 30px;
+		width: 250px;
+	}
+	.slider h2{
+		font-size: 36px;
+		padding-bottom: 0;
+	}
+	.slider h3{
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.iphone{
+		display: none;
+	}
+	.play{
+		display: none;
+	}
+
+	.text h6{
+		display: none;	
+	}
+	.slider{
+		background: none;
+		height: auto;
+		margin-top: 0;
+	}
+	.about{
+		height: auto;
+		background-size: cover;
+	}
+
+	.footer_bottom{
+		display: none;
+	}
+	.designe{
+		right: 80px;
+	}
+	.main{
+		height: auto;
+	}
+	.article{
+		width: 100%;
+		margin-top: 0;
+	}
+	.foto1{
+		position: absolute;
+		top: 20px;
+		left: -10px;
+	}
+	.section{
+		height: 600px;
+	}		
+}
